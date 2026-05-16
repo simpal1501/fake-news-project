@@ -9,14 +9,8 @@ from sklearn.linear_model import LogisticRegression
 app = Flask(__name__)
 
 # Load dataset
-fake = pd.read_csv(
-    r"C:\Users\simpa\OneDrive\Desktop\fake-news-project-main\data\Fake.csv"
-)
-
-true = pd.read_csv(
-    r"C:\Users\simpa\OneDrive\Desktop\fake-news-project-main\data\True.csv"
-)
-
+fake = pd.read_csv("../data/Fake.csv")
+true = pd.read_csv("../data/True.csv")
 # Labels
 fake["label"] = 0     # Fake
 true["label"] = 1     # Real
