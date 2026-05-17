@@ -1,1 +1,1 @@
-# fake-news-project
+Veritas – News Authenticity Classification System
