@@ -1,1 +1,1 @@
-Veritas – News Authenticity Classification System
+Veritas – Fake News Detection System using NLP & Machine Learning
